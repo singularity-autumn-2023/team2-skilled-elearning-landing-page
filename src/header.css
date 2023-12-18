@@ -1,0 +1,147 @@
+header{
+    overflow: hidden;
+    height: 888px;
+    width: 1440px;
+    display: flex;
+}
+
+h1{ 
+    color: hsla(234, 53%, 16%, 1);
+    font-family: Plus Jakarta Sans;
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: normal;
+ }
+ button {
+    width: 167px;
+    height: 63px;
+    flex-shrink: 0;
+    border-radius: 31.5px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border: none;
+    color: var(--FFFFFF, #FFF);
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+@media screen and (min-width: 48rem){
+.container-on-top{
+    margin-top: 1.5rem;
+    padding:0;
+    margin-right: 2.5rem;
+    margin-left: 2.438rem;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+h1{
+    margin: 0;
+}
+.img-alt{
+    margin-top: -34rem;
+    margin-left: 23rem;
+    overflow: hidden;
+    height: auto;
+    content:url(../headerphoto/image-desktop.svg)
+      }
+
+}
+@media screen and (min-width: 90rem)  {
+.container-on-top{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+h1{
+    font-size: 3.5rem;
+    margin: 0;
+}
+}
+
+header {
+    overflow: hidden;
+    position: relative; /* Add this line for proper positioning */
+  }
+
+  .header-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: auto; /* Adjust the width as needed */
+    height: auto; /* Adjust the height as needed */
+  }
+
+
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+  }
+  
+  .container {
+    flex: 1;
+  }
+  
+  .container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .container-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 111.168px;
+height: 27.684px;
+flex-shrink: 0;
+margin-left: auto;
+  }
+  
+  .container-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    
+  }
+  
+  .container-center {
+    text-align: left;
+    margin-top: -60%; /* Adjust as needed */
+    top: 50px;
+        width: 457px;
+height: 359px;
+flex-shrink: 0;
+
+  }
+ .container-ggg {
+    text-align: right;
+    margin-top: -70%;
+ }
+
+ .container-ggg button {
+    background: var(--13183F, #13183F);
+    border-radius: 28px; }
+
+  
+  
+ 
+  
