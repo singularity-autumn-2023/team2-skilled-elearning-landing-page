@@ -1,0 +1,117 @@
+@font-face {
+    font-family: Plus Jakatra Sans Bold;
+    src: url(/src/font/Plus_Jakarta_Sans/static/PlusJakartaSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: Plus Jakatra Sans ExtraBold;
+    src: url(/src/font/Plus_Jakarta_Sans/static/PlusJakartaSans-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Plus Jakatra Sans Medium;
+    src: url(/src/font/Plus_Jakarta_Sans/static/PlusJakartaSans-Medium.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 888px;
+    width: 1440px;
+    background-image: linear-gradient(#FFFFFF, #F0F1FF);
+    text-align: center;
+    padding: 74px 165px 214px;
+}
+
+
+.pointer {
+    cursor: pointer;
+}
+
+.container {
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+.body-items {
+    box-sizing: border-box;
+    height: 322px;
+    text-align: center;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 350px 350px 350px;
+}
+
+.body-item-main {
+    box-sizing: border-box;
+    height: 322px;
+    border-radius: 15px;
+    background-image: linear-gradient(#FF6F48, #F02AA6);
+    padding: 64px 32px 138px;
+}
+
+.body-item-main span {
+    height: 120px;
+    width: 286px;
+    color: white;
+    font-size: 32px;
+    line-height: 40px;
+    font-family: Plus Jakatra Sans Bold;
+}
+
+.body-item {
+    box-sizing: border-box;
+    height: 346px;
+}
+
+.body-item img {
+    position: absolute;
+    top: 50px;
+    left: 575px;
+}
+
+.item-card {
+    background-color: white;
+    box-sizing: border-box;
+    height: 322px;
+    width: 350px;
+    border-radius: 15px;
+    padding: 64px 32px 40px;
+    margin-bottom: 56px;
+    box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+}
+
+.item-text {
+    box-sizing: border-box;
+    height: 218px;
+    width: 286px;
+    text-align: left;
+}
+
+.item-text-header {
+    font-family: Plus Jakatra Sans ExtraBold;
+    line-height: auto;
+    font-size: 24px;
+    color: #13183F;
+}
+
+.item-text-body {
+    height: 112px;
+    font-family: Plus Jakatra Sans Medium;
+    font-size: 18px;
+    line-height: 28px;
+    color: #83869A;
+    margin: 24px 0;
+}
+
+.item-text-footer {
+    font-family: Plus Jakatra Sans Bold;
+    font-size: 18px;
+    line-height: 28px;
+    color: #F74780;
+    margin-bottom: 40px;
+}

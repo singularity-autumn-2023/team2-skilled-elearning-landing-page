@@ -1,0 +1,25 @@
+.footer{
+display: flex;
+justify-content: space-between;
+align-items: center;
+ /* width: 90rem; */
+height: 7.5rem; 
+flex-shrink: 0;
+background: var(--13183F, #13183F);
+}
+
+.skilled{
+    padding-left: 10.5rem;
+    width: 6.948rem;
+    height: 1.73025rem;
+    flex-shrink: 0;
+}
+ @media (min-width:0px) and (max-width: 700px){
+ .skilled {
+    padding-left: 3.5rem;
+    width: 6.948rem;
+    height: 1.73025rem;
+    flex-shrink: 0;
+}
+ }
+ 
